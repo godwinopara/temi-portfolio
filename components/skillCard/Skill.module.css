@@ -1,0 +1,47 @@
+@media screen and (min-width: 1024px) {
+	/* ==================== */
+	/* ==== Skills ======= */
+
+	.skillsWrapper {
+		margin-bottom: 150px;
+	}
+
+	.skillsWrapper h2 {
+		font-size: 3.5rem;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+
+	.skills {
+		display: flex;
+		justify-content: space-between;
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+	}
+
+	.skills div {
+		border: 2px solid black;
+		width: 32%;
+		padding: 50px 40px;
+		border-radius: 10px;
+		box-shadow: #000000 4px 4px 0 0;
+	}
+
+	.icon {
+		background-color: #6e61ff;
+		font-size: 6.5rem;
+		padding: 12px;
+		border-radius: 30px;
+	}
+
+	.skills div h3 {
+		font-size: 3rem;
+		margin: 80px 0 20px;
+		font-weight: 600;
+	}
+
+	.skills div p {
+		font-size: 1.8rem;
+	}
+}

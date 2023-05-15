@@ -1,0 +1,55 @@
+.content {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+	/* =============== */
+	/* PROJECT STYLES */
+
+	.projectWrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 70px;
+		justify-content: space-between;
+		margin-bottom: 70px;
+	}
+
+	.projectWrapper:hover img {
+		scale: 1.1;
+	}
+
+	.projectWrapper h3 {
+		font-size: 3.2rem;
+		margin-bottom: 15px;
+		font-weight: 700;
+	}
+
+	.projectWrapper h4 {
+		font-size: 1.8rem;
+		font-weight: 500;
+		margin-bottom: 30px;
+	}
+
+	.projectWrapper p {
+		font-size: 1.8rem;
+	}
+
+	.projectImg {
+		background-color: #f0f0f0;
+		padding: 40px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.projectImg img {
+		object-fit: contain;
+		transition: 0.5s all;
+		border-radius: 15px;
+	}
+
+	.projectImg img:hover {
+		scale: 1.1;
+		transition: 0.5s all;
+	}
+}

@@ -1,0 +1,118 @@
+.navList ul,
+.navList li {
+  list-style: none;
+}
+
+/* ==================== */
+/* DropDown navigation */
+
+.dropDownNav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  text-align: right;
+  background-color: #292931;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dropDownNav .navList a {
+  color: white;
+  text-decoration: none;
+  font-size: 3.2rem;
+}
+
+.dropDownNav .navList li {
+  margin-bottom: 18px;
+}
+
+.dropDownNav .logo {
+  color: white;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.logoDark {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.hamburger {
+  font-size: 40px;
+  color: white;
+}
+
+.hamburgerDark {
+  font-size: 40px;
+}
+
+.logoHamburgerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.social div {
+  margin-right: 10px;
+  color: white;
+}
+
+.toggleNav {
+  display: none;
+}
+
+/* =================== */
+/* Desktop Navigation */
+
+.desktopNav {
+  display: none;
+}
+
+/* ================ */
+/*  Media Queries  */
+
+@media (min-width: 768px) {
+  .heroBtn {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
+
+  /* =================== */
+  /* Desktop Navigation */
+  .desktopNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+  }
+
+  .desktopNav .navList {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktopNav .navList a {
+    color: black;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}

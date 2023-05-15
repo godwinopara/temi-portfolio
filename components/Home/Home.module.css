@@ -1,0 +1,131 @@
+/* ================================== */
+/* ========== HERO ========== */
+.hero {
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+
+.heroText h1 {
+	font-size: 4.2rem;
+	font-weight: 800;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+.heroText span {
+	color: #5e3bee;
+}
+
+.heroText p {
+	font-size: 1.7rem;
+	margin-bottom: 50px;
+}
+
+.heroBtn {
+	background-color: #6e61ff;
+	border: 2px solid #222222;
+	border-radius: 30px;
+	box-shadow: #000000 4px 4px 0 0;
+	color: #ffff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 0 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	margin-bottom: 50px;
+	transition: 0.4s all;
+}
+
+.heroBtn:hover {
+	box-shadow: #000000 0px 0px 0 0;
+	transform: translate(4px, 4px);
+	transition: 0.4s all;
+}
+
+.projectHeading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ================ */
+/*  Skills Styles */
+
+@media screen and (min-width: 1024px) {
+	/* =================== */
+	/* ===== Hero ======= */
+	.hero {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 80px;
+	}
+
+	.heroText {
+		width: 45%;
+	}
+
+	.heroText h1 {
+		font-size: 7rem;
+	}
+
+	.heroText p {
+		font-size: 2rem;
+	}
+
+	.heroImg {
+		width: 50%;
+	}
+
+	/* ==================== */
+	/* ==== Skills ======= */
+
+	.skillsWrapper {
+		margin-bottom: 150px;
+	}
+
+	.skillsWrapper h2 {
+		font-size: 3.5rem;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+
+	.skills {
+		display: flex;
+		justify-content: space-between;
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+	}
+
+	.skills div {
+		border: 2px solid black;
+		width: 32%;
+		padding: 50px 40px;
+		border-radius: 10px;
+		box-shadow: #000000 4px 4px 0 0;
+	}
+
+	.icon {
+		background-color: #6e61ff;
+		font-size: 6.5rem;
+		padding: 12px;
+		border-radius: 30px;
+	}
+
+	.skills div h3 {
+		font-size: 3rem;
+		margin: 80px 0 20px;
+		font-weight: 600;
+	}
+
+	.skills div p {
+		font-size: 1.8rem;
+	}
+}
