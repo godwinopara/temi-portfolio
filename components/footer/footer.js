@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
+import Image from "next/image";
 
 const Footer = () => {
 	return (
@@ -17,6 +18,7 @@ const Footer = () => {
 
 				<div className={styles.footerLink}>
 					<div>
+						<Image src="/images/avatar-glasses.png" height={80} width={80} alt="logo" />
 						<h3>Temi</h3>
 						<p>Technical Product Manager</p>
 					</div>

@@ -2,6 +2,7 @@ import { IoIosMenu } from "react-icons/io";
 import styles from "@/components/navbar/Navbar.module.css";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavBar() {
 	const [navIsOpen, setNavIsOpen] = useState(false);
@@ -15,7 +16,9 @@ export default function NavBar() {
 			{/* Desktop Nav */}
 			<nav className={`${styles.navMenu} ${styles.desktopNav} container`}>
 				<div className={styles.logoDark}>
-					<Link href="/">Temi</Link>
+					<Link href="/">
+						<Image src="/images/avatar-glasses.png" height={80} width={80} alt="avatar logo" />
+					</Link>
 				</div>
 				<ul className={styles.navList}>
 					<li>
