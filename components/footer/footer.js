@@ -18,11 +18,14 @@ const Footer = () => {
 
 				<div className={styles.footerLink}>
 					<div>
-						<Image src="/images/avatar-glasses.png" height={80} width={80} alt="logo" />
-						<h3>Temi</h3>
+						{/* <Image src="/images/avatar-glasses.png" height={80} width={80} alt="logo" /> */}
+						<h3>Temitope</h3>
 						<p>Technical Product Manager</p>
 					</div>
 					<ul>
+						<li>
+							<Link href="/">Home</Link>
+						</li>
 						<li>
 							<Link href="/projects">Project</Link>
 						</li>

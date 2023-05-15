@@ -14,13 +14,15 @@ export default function NavBar() {
 	return (
 		<>
 			{/* Desktop Nav */}
-			<nav className={`${styles.navMenu} ${styles.desktopNav} container`}>
-				<div className={styles.logoDark}>
-					<Link href="/">
-						<Image src="/images/avatar-glasses.png" height={80} width={80} alt="avatar logo" />
-					</Link>
-				</div>
+			<nav className={`${styles.desktopNav} container`}>
+				<Link href="/">
+					<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
+				</Link>
 				<ul className={styles.navList}>
+					<li>
+						<Link href="/">Home</Link>
+					</li>
+
 					<li>
 						<Link href="/projects">Projects</Link>
 					</li>
@@ -44,6 +46,9 @@ export default function NavBar() {
 						</div>
 					</div>
 					<ul className={styles.navList}>
+						<li>
+							<Link href="/">Home</Link>
+						</li>
 						<li>
 							<Link href="/projects">Project</Link>
 						</li>

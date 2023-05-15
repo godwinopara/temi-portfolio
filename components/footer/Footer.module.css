@@ -88,3 +88,11 @@
 	color: white;
 	text-decoration: none;
 }
+
+.footerLink img {
+	background: white;
+	border-radius: 100%;
+	text-align: center;
+	object-fit: cover;
+	object-position: center;
+}
