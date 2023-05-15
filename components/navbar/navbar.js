@@ -38,9 +38,11 @@ export default function NavBar() {
 
 			{/* DropDown Nav */}
 			<div className={`${!navIsOpen ? styles.toggleNav : ""}`}>
-				<nav className={`${styles.navMenu} ${styles.dropDownNav}`}>
+				<nav className={styles.dropDownNav}>
 					<div className={styles.logoHamburgerWrapper}>
-						<div className={styles.logo}>Temi</div>
+						<Link href="/">
+							<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
+						</Link>
 						<div className={styles.hamburger} onClick={toggleNav}>
 							<IoIosMenu />
 						</div>
@@ -72,7 +74,9 @@ export default function NavBar() {
 			{/* Main Mobile Nav DropDown */}
 			<nav>
 				<div className={`${styles.logoHamburgerWrapper} ${styles.mobileNav}`}>
-					<div className={styles.logoDark}>Temi</div>
+					<Link href="/">
+						<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
+					</Link>
 					<div className={styles.hamburgerDark} onClick={toggleNav}>
 						<IoIosMenu />
 					</div>

@@ -33,10 +33,12 @@
 	color: white;
 }
 
-.logo {
-	font-size: 2.5rem;
-	font-weight: 900;
-	color: white;
+.dropDownNav img {
+	background: #6e61ff;
+	border-radius: 100%;
+	text-align: center;
+	object-fit: cover;
+	object-position: center;
 }
 
 .hamburger {
@@ -66,6 +68,14 @@
 
 .toggleNav {
 	display: none;
+}
+
+.mobileNav img {
+	background: #6e61ff;
+	border-radius: 100%;
+	text-align: center;
+	object-fit: cover;
+	object-position: center;
 }
 
 /* =================== */
