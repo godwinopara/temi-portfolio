@@ -37,7 +37,7 @@ export default function NavBar() {
 			</nav>
 
 			{/* DropDown Nav */}
-			<div className={`${!navIsOpen ? styles.toggleNav : ""}`}>
+			<div className={`${navIsOpen ? styles.toggleNav : ""}`}>
 				<nav className={styles.dropDownNav}>
 					<div className={styles.logoHamburgerWrapper}>
 						<Link href="/">
@@ -64,7 +64,7 @@ export default function NavBar() {
 					</ul>
 					<div className={styles.social}>
 						<div>facebook</div>
-						<div>Insta</div>
+						<div>Instagram</div>
 						<div>Github</div>
 						<div>Linkedin</div>
 					</div>

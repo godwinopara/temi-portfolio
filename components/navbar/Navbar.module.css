@@ -10,13 +10,12 @@
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	inset: 0;
-	text-align: right;
+	top: -100%;
+	left: 0;
 	background-color: #292931;
-	padding: 10px 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	padding: 30px;
+	z-index: 1000;
+	transition: 0.5s all;
 }
 
 .dropDownNav .navList a {
@@ -26,11 +25,12 @@
 }
 
 .dropDownNav .navList li {
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 
-.dropDownNav .logo {
-	color: white;
+.navList {
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
 
 .dropDownNav img {
@@ -44,10 +44,12 @@
 .hamburger {
 	font-size: 40px;
 	color: white;
+	cursor: pointer;
 }
 
 .hamburgerDark {
 	font-size: 40px;
+	cursor: pointer;
 }
 
 .logoHamburgerWrapper {
@@ -64,10 +66,17 @@
 .social div {
 	margin-right: 10px;
 	color: white;
+	font-size: 1.5rem;
+	cursor: pointer;
 }
 
 .toggleNav {
-	display: none;
+	display: block;
+}
+
+.toggleNav .dropDownNav {
+	top: 0;
+	transition: 0.5s all;
 }
 
 .mobileNav img {

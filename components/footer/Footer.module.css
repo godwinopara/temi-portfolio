@@ -120,20 +120,6 @@
 		margin-top: 150px;
 	}
 
-	/* .footerLink::before {
-		content: "";
-		height: 1px;
-		width: 100%;
-		position: absolute;
-		background-color: white;
-		top: -80px;
-	} */
-
-	/* .footerLink h3 {
-		font-size: 3rem;
-		margin-bottom: 10px;
-	} */
-
 	.footerLink ul {
 		display: flex;
 		align-items: center;

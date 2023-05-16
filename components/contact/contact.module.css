@@ -104,13 +104,6 @@
 /* ============================================= */
 /* ============== MEDIA QUERY ================= */
 
-/* @media screen and (min-width: 768px) {
-	.contactWrapper {
-		max-width: 700px;
-		margin: auto;
-	}
-} */
-
 @media screen and (min-width: 1024px) {
 	.contactWrapper {
 		display: flex;
