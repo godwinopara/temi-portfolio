@@ -67,7 +67,7 @@
 	transition: 0.4s all;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	.heading {
 		text-align: center;
 		margin-top: 0px;
@@ -100,11 +100,7 @@
 	}
 
 	.project__img {
-		height: 300px;
-	}
-
-	.projectImg__wrapper h3 {
-		font-size: 2rem;
+		height: 350px;
 	}
 
 	.projectImg__wrapper img:hover {
@@ -125,15 +121,5 @@
 		box-shadow: #000000 0px 0px 0 0;
 		transform: translate(4px, 4px);
 		transition: 0.4s all;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.projectImg__wrapper h3 {
-		font-size: 2.8rem;
-	}
-
-	.project__img {
-		height: 350px;
 	}
 }
