@@ -27,7 +27,7 @@ const SelectedProjects = () => {
 		<section className="container" id="project">
 			<div className={styles.projectHeading}>
 				<h2>Selected Projects</h2>
-				<Link href="/projects"></Link>
+				<Link href="/projects">View all Projects</Link>
 			</div>
 			{projects?.map((project, id) => {
 				return <ProjectCard key={id} title={project.title} subtitle={project.subTitle} imgUrl={project.imgUrl} description={project.description} />;

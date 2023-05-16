@@ -1,8 +1,14 @@
 /* ================================== */
 /* ========== HERO ========== */
 .hero {
-	margin-top: 20px;
-	margin-bottom: 150px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.heroImg {
+	position: relative;
+	min-height: 400px;
+	object-fit: cover;
 }
 
 .heroText h1 {
@@ -24,7 +30,7 @@
 .heroBtn {
 	background-color: #6e61ff;
 	border: 2px solid #222222;
-	border-radius: 30px;
+	border-radius: 4px;
 	box-shadow: #000000 4px 4px 0 0;
 	color: #ffff;
 	cursor: pointer;
@@ -33,6 +39,7 @@
 	font-size: 18px;
 	padding: 0 50px;
 	line-height: 50px;
+	width: 250px;
 	text-align: center;
 	text-decoration: none;
 	user-select: none;
@@ -49,9 +56,17 @@
 }
 
 .projectHeading {
-	display: flex;
+	/* display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; */
+	margin-bottom: 80px;
+}
+
+.projectHeading a {
+	font-size: 2.3rem;
+	display: block;
+	margin-top: 30px;
+	text-decoration: underline;
 }
 
 /* ================ */
@@ -65,6 +80,8 @@
 		justify-content: space-between;
 		align-items: center;
 		margin-top: 80px;
+		position: relative;
+		margin-bottom: 150px;
 	}
 
 	.heroText {
@@ -81,6 +98,9 @@
 
 	.heroImg {
 		width: 50%;
+		position: relative;
+		min-height: 500px;
+		object-fit: cover;
 	}
 
 	/* ==================== */
@@ -127,5 +147,19 @@
 
 	.skills div p {
 		font-size: 1.8rem;
+	}
+
+	.projectHeading {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 80px;
+	}
+
+	.projectHeading a {
+		font-size: 2.3rem;
+		display: block;
+		margin-top: 0;
+		text-decoration: underline;
 	}
 }

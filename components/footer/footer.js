@@ -18,7 +18,7 @@ const Footer = () => {
 
 				<div className={styles.footerLink}>
 					<div>
-						{/* <Image src="/images/avatar-glasses.png" height={80} width={80} alt="logo" /> */}
+						<Image src="/images/avatar.png" height={50} width={50} alt="logo" />
 						<h3>Temitope</h3>
 						<p>Technical Product Manager</p>
 					</div>

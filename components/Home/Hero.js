@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Home.module.css";
+import Link from "next/link";
 
 const Hero = () => {
 	return (
@@ -11,14 +12,14 @@ const Hero = () => {
 				<p>
 					Hi {`I'm`} <b>Temitope</b>, A <b>Technical Product Manager</b>. I Build unforgetable Solutions for Startups and also help businesses establish a strong online presence and stand out in their industry.
 				</p>
-				<a>
+				<Link href="/projects">
 					<button className={styles.heroBtn} role="button">
-						My Blogs
+						My Projects
 					</button>
-				</a>
+				</Link>
 			</div>
 			<div className={styles.heroImg}>
-				<Image src="/images/hero.png" alt="hero img" height={500} width={600} />
+				<Image src="/images/hero.png" fill alt="hero img" />
 			</div>
 		</section>
 	);

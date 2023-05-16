@@ -2,6 +2,27 @@
 	cursor: pointer;
 }
 
+.projectWrapper {
+	margin-bottom: 70px;
+}
+
+.projectWrapper h3 {
+	font-size: 3rem;
+	margin-bottom: 15px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.projectWrapper h4 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.projectWrapper p {
+	font-size: 1.8rem;
+}
+
 @media screen and (min-width: 1024px) {
 	/* =============== */
 	/* PROJECT STYLES */
@@ -12,7 +33,6 @@
 		align-items: center;
 		grid-gap: 70px;
 		justify-content: space-between;
-		margin-bottom: 70px;
 	}
 
 	.projectWrapper:hover img {
@@ -21,18 +41,7 @@
 
 	.projectWrapper h3 {
 		font-size: 3.2rem;
-		margin-bottom: 15px;
-		font-weight: 700;
-	}
-
-	.projectWrapper h4 {
-		font-size: 1.8rem;
-		font-weight: 500;
-		margin-bottom: 30px;
-	}
-
-	.projectWrapper p {
-		font-size: 1.8rem;
+		margin-top: 0;
 	}
 
 	.projectImg {
