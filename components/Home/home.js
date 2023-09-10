@@ -1,6 +1,7 @@
 import Skill from "../skillCard/Skill";
 import SelectedProjects from "./SelectedProjects";
 import Hero from "./Hero";
+import SelectedArticles from "./SelectedArticles";
 
 export default function Home() {
 	return (
@@ -19,6 +20,11 @@ export default function Home() {
 			{/* ============= PROJECTS ================ */}
 
 			<SelectedProjects />
+
+			{/* ======================================= */}
+			{/* ============= ARTICLES ================ */}
+
+			<SelectedArticles />
 		</>
 	);
 }

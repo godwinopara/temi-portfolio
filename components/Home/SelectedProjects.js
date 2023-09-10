@@ -5,24 +5,21 @@ import styles from "./Home.module.css";
 const SelectedProjects = () => {
 	const projects = [
 		{
-			title: "Automating College Experience",
-			subTitle: "MACHINE LEARNING",
-			description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
+			title: "Federated Learning and RaspberryPi",
+			subTitle: "RASPBERRY PI",
+			description:
+				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
 			imgUrl: "/images/AI.jpeg",
 		},
 		{
-			title: "Automating College Experience",
-			subTitle: "MACHINE LEARNING",
-			description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
+			title: " ChatGPT-Prompt-for-Developers",
+			subTitle: "ARTIFICIAL INTELLIGENCE",
+			description:
+				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
 			imgUrl: "/images/sync.jpg",
 		},
-		{
-			title: "Automating College Experience",
-			subTitle: "MACHINE LEARNING",
-			description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
-			imgUrl: "/images/impression.jpg",
-		},
 	];
+
 	return (
 		<section className="container" id="project">
 			<div className={styles.projectHeading}>
@@ -30,7 +27,15 @@ const SelectedProjects = () => {
 				<Link href="/projects">View all Projects</Link>
 			</div>
 			{projects?.map((project, id) => {
-				return <ProjectCard key={id} title={project.title} subtitle={project.subTitle} imgUrl={project.imgUrl} description={project.description} />;
+				return (
+					<ProjectCard
+						key={id}
+						title={project.title}
+						subtitle={project.subTitle}
+						imgUrl={project.imgUrl}
+						description={project.description}
+					/>
+				);
 			})}
 		</section>
 	);

@@ -56,9 +56,6 @@
 }
 
 .projectHeading {
-	/* display: flex;
-	justify-content: space-between;
-	align-items: center; */
 	margin-bottom: 80px;
 }
 
@@ -70,7 +67,29 @@
 }
 
 /* ================ */
-/*  Skills Styles */
+/*  Articles Styles */
+
+.articleWrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.articleHeading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.articleHeading a {
+	font-size: 2.3rem;
+	display: block;
+	margin-top: 30px;
+	text-decoration: underline;
+}
 
 @media screen and (min-width: 1024px) {
 	/* =================== */
