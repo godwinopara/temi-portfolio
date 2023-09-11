@@ -1,12 +1,15 @@
 import Image from "next/image";
 import * as S from "./Article.module.css";
+import Link from "next/link";
 
-const ArticleCard = ({ site, title, description, imgUrl }) => {
+const ArticleCard = ({ site, title, description, imgUrl, link }) => {
 	return (
 		<div className={S.articleWrapper}>
-			<div className={S.projectImg}>
-				<Image src={imgUrl} height={300} width={600} alt="" />
-			</div>
+			<Link href={link} rel="noopener noreferrer" target="_blank">
+				<div className={S.projectImg}>
+					<Image src={imgUrl} fill alt="article flier" />
+				</div>
+			</Link>
 			<div className={S.content}>
 				<h3>{site}</h3>
 				<h4>{title}</h4>

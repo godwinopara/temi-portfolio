@@ -23,6 +23,33 @@
 	font-size: 1.8rem;
 }
 
+.btn {
+	background-color: #222222;
+	border: 2px solid white;
+	border-radius: 3px;
+	box-shadow: #000000 4px 4px 0 0;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 2rem;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	transition: 0.4s all;
+}
+
+.btn:hover {
+	box-shadow: #000000 0px 0px 0 0;
+	transform: translate(4px, 4px);
+	transition: 0.4s all;
+}
+
 @media screen and (min-width: 1024px) {
 	/* =============== */
 	/* PROJECT STYLES */

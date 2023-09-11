@@ -1,9 +1,9 @@
-import Link from "next/link";
-import styles from "./Home.module.css";
-import TalkCard from "../talk/TalkCard";
+import React from "react";
+import TalkCard from "./TalkCard";
+import * as S from "./Talk.module.css";
 
-const SelectedTalks = () => {
-	const selectedTalks = [
+const Talk = () => {
+	const talks = [
 		{
 			title: "Women In Tech",
 			host: "Women in technology Spotlight",
@@ -23,21 +23,19 @@ const SelectedTalks = () => {
 			link: "https://thefemtech.com/",
 		},
 	];
-
-	//
-	https: return (
+	return (
 		<div className="container">
-			<div className={styles.heading}>
-				<h2>Featured Talks</h2>
-				<Link href="/talks">View all Talks</Link>
+			<div className={S.heading}>
+				<h1>Recent Talks</h1>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, corporis!</p>
 			</div>
-			<div className={styles.wrapper}>
-				{selectedTalks.map((talk, id) => {
-					return <TalkCard key={id} {...talk} />;
+			<div className={S.talkWrapper}>
+				{talks?.map((talk) => {
+					return <TalkCard key={talk?.id} {...talk} />;
 				})}
 			</div>
 		</div>
 	);
 };
 
-export default SelectedTalks;
+export default Talk;

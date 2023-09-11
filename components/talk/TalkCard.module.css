@@ -1,26 +1,20 @@
 .content {
 	padding: 2rem;
-	height: 280px;
+	height: 120px;
 }
 
-.articleWrapper {
+.TalkWrapper {
 	margin-bottom: 70px;
 	background-color: white;
 }
 
-.articleWrapper h3 {
-	font-size: 1.8rem;
-	margin-bottom: 15px;
-	font-weight: 500;
-}
-
-.articleWrapper h4 {
+.TalkWrapper h4 {
 	font-size: 1.8rem;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
-.articleWrapper p {
+.TalkWrapper p {
 	font-size: 1.8rem;
 }
 
@@ -28,24 +22,25 @@
 	/* =============== */
 	/* PROJECT STYLES */
 
-	.articleWrapper {
+	.TalkWrapper {
 		align-items: center;
 		grid-gap: 70px;
 		justify-content: space-between;
 	}
 
-	.articleWrapper h3 {
+	.TalkWrapper h3 {
 		font-size: 1.8rem;
 	}
 
 	.projectImg {
 		background-color: #f0f0f0;
-		border-radius: 5px;
+		height: 250px;
+		position: relative;
 	}
 
 	.projectImg img {
 		object-fit: cover;
 		object-position: center;
-		height: 250px;
+		height: auto;
 	}
 }

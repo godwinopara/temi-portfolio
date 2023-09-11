@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import Talk from "@/components/talk/Talk";
 import Head from "next/head";
 const Talks = () => {
 	return (
@@ -11,7 +12,7 @@ const Talks = () => {
 			</Head>
 
 			<Layout>
-				<div className="container">All Talks</div>
+				<Talk />
 			</Layout>
 		</>
 	);

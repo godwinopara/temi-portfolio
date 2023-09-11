@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ProjectCard from "../shared/project/ProjectCard";
+import ProjectCard from "../project/ProjectCard";
 import styles from "./Home.module.css";
 
 const SelectedProjects = () => {
@@ -10,13 +10,15 @@ const SelectedProjects = () => {
 			description:
 				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
 			imgUrl: "/images/AI.jpeg",
+			link: "https://github.com/TemitopeOladokun/FederatedLearningandRaspberryPi",
 		},
 		{
 			title: " ChatGPT-Prompt-for-Developers",
 			subTitle: "ARTIFICIAL INTELLIGENCE",
 			description:
 				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
-			imgUrl: "/images/sync.jpg",
+			imgUrl: "/images/chatgpt-img.jpeg",
+			link: "https://github.com/TemitopeOladokun/ChatGPT-Prompt-Engineering-for-Developers",
 		},
 	];
 
@@ -34,6 +36,7 @@ const SelectedProjects = () => {
 						subtitle={project.subTitle}
 						imgUrl={project.imgUrl}
 						description={project.description}
+						projectLink={project.link}
 					/>
 				);
 			})}

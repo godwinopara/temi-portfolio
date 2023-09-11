@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "./Project.module.css";
+import styles from "./ProjectPageCard.module.css";
 import Link from "next/link";
 
 const ProjectPageCard = ({ imgUrl, title, subtitle, year }) => {

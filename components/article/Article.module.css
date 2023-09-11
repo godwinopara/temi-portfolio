@@ -1,48 +1,54 @@
 .content {
 	padding: 2rem;
-	height: 120px;
+	height: 220px;
 }
 
-.TalkWrapper {
+.articleWrapper {
 	margin-bottom: 70px;
 	background-color: white;
 }
 
-.TalkWrapper h4 {
+.articleWrapper h3 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.articleWrapper h4 {
 	font-size: 1.8rem;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
-.TalkWrapper p {
-	font-size: 1.8rem;
+.articleWrapper p {
+	font-size: 1.6rem;
 }
 
 @media screen and (min-width: 1024px) {
 	/* =============== */
 	/* PROJECT STYLES */
 
-	.TalkWrapper {
+	.articleWrapper {
 		align-items: center;
 		grid-gap: 70px;
 		justify-content: space-between;
 	}
 
-	.TalkWrapper h3 {
+	.articleWrapper h3 {
 		font-size: 1.8rem;
 	}
 
 	.projectImg {
 		background-color: #f0f0f0;
-		border: 1px solid black;
-		height: 200px;
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		height: 220px;
+		position: relative;
+		cursor: pointer;
 	}
 
 	.projectImg img {
 		object-fit: cover;
 		object-position: center;
+		width: 100%;
+		background-color: white;
 	}
 }
