@@ -1,3 +1,4 @@
+import Article from "@/components/article/Article";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
 
@@ -12,7 +13,7 @@ const Articles = () => {
 			</Head>
 
 			<Layout>
-				<div className="container">All Articles</div>
+				<Article />
 			</Layout>
 		</>
 	);

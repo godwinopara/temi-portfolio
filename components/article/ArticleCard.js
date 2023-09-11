@@ -1,5 +1,5 @@
 import Image from "next/image";
-import * as S from "./Article.module.css";
+import * as S from "./ArticleCard.module.css";
 import Link from "next/link";
 
 const ArticleCard = ({ site, title, description, imgUrl, link }) => {

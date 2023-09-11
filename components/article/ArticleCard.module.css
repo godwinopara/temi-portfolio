@@ -1,0 +1,54 @@
+.content {
+	padding: 2rem;
+	height: 220px;
+}
+
+.articleWrapper {
+	margin-bottom: 70px;
+	background-color: white;
+}
+
+.articleWrapper h3 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.articleWrapper h4 {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.articleWrapper p {
+	font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+	/* =============== */
+	/* PROJECT STYLES */
+
+	.articleWrapper {
+		align-items: center;
+		grid-gap: 70px;
+		justify-content: space-between;
+	}
+
+	.articleWrapper h3 {
+		font-size: 1.8rem;
+	}
+
+	.projectImg {
+		background-color: #f0f0f0;
+		height: 220px;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.projectImg img {
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+		background-color: white;
+	}
+}

@@ -1,5 +1,5 @@
 import ProjectPageCard from "./ProjectPageCard";
-import styles from "./Project.module.css";
+import styles from "./ProjectPageCard.module.css";
 
 const Projects = () => {
 	const projectList = [
