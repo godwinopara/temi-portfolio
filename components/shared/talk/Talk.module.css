@@ -1,0 +1,48 @@
+.content {
+	padding: 2rem;
+	height: 120px;
+}
+
+.TalkWrapper {
+	margin-bottom: 70px;
+	background-color: white;
+}
+
+.TalkWrapper h4 {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.TalkWrapper p {
+	font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+	/* =============== */
+	/* PROJECT STYLES */
+
+	.TalkWrapper {
+		align-items: center;
+		grid-gap: 70px;
+		justify-content: space-between;
+	}
+
+	.TalkWrapper h3 {
+		font-size: 1.8rem;
+	}
+
+	.projectImg {
+		background-color: #f0f0f0;
+		border: 1px solid black;
+		height: 200px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.projectImg img {
+		object-fit: cover;
+		object-position: center;
+	}
+}

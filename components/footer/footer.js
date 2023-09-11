@@ -9,10 +9,15 @@ const Footer = () => {
 				<div className={styles.footerHeading}>
 					<div>
 						<h3>{`Let's`} Talk!</h3>
-						<p>I am always open to connect with people in tech, learn more about product management, and discuss navigating this rewarding career path.</p>
+						<p>
+							I am always open to connect with people in tech, learn more about product management,
+							and discuss navigating this rewarding career path.
+						</p>
 					</div>
 					<div>
-						<button>Get Started</button>
+						<Link href="/contact">
+							<button>Contact Me</button>
+						</Link>
 					</div>
 				</div>
 
@@ -24,17 +29,20 @@ const Footer = () => {
 					</div>
 					<ul>
 						<li>
-							<Link href="/">Home</Link>
+							<Link href="/">About</Link>
 						</li>
 						<li>
 							<Link href="/projects">Project</Link>
 						</li>
+						<li>
+							<Link href="">Talks</Link>
+						</li>
+						<li>
+							<Link href="">Articles</Link>
+						</li>
 
 						<li>
 							<Link href="/contact">Contact</Link>
-						</li>
-						<li>
-							<Link href="">Resume</Link>
 						</li>
 					</ul>
 				</div>

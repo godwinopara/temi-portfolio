@@ -66,10 +66,10 @@
 	text-decoration: underline;
 }
 
-/* ================ */
-/*  Articles Styles */
+/* ================================== */
+/*  Articles Styles AND Talk Styles */
 
-.articleWrapper {
+.wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
@@ -77,14 +77,14 @@
 	justify-content: space-between;
 }
 
-.articleHeading {
+.heading {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 80px;
 }
 
-.articleHeading a {
+.heading a {
 	font-size: 2.3rem;
 	display: block;
 	margin-top: 30px;

@@ -20,18 +20,20 @@ export default function NavBar() {
 				</Link>
 				<ul className={styles.navList}>
 					<li>
-						<Link href="/">Home</Link>
+						<Link href="/">About</Link>
 					</li>
 
 					<li>
 						<Link href="/projects">Projects</Link>
 					</li>
-
 					<li>
-						<Link href="/contact">Contact</Link>
+						<Link href="/resume">Talks</Link>
 					</li>
 					<li>
-						<Link href="/resume">Resume</Link>
+						<Link href="/resume">Articles</Link>
+					</li>
+					<li>
+						<Link href="/contact">Contact</Link>
 					</li>
 				</ul>
 			</nav>

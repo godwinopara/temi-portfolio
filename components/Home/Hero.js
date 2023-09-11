@@ -10,11 +10,13 @@ const Hero = () => {
 					Building for <span>humans</span>
 				</h1>
 				<p>
-					Hi {`I'm`} <b>Temitope</b>, A <b>Technical Product Manager</b>. I Build unforgetable Solutions for Startups and also help businesses establish a strong online presence and stand out in their industry.
+					Hi {`I'm`} <b>Temitope</b>, A <b>Technical Product Manager</b>. I Build unforgetable
+					Solutions for Startups and also help businesses establish a strong online presence and
+					stand out in their industry.
 				</p>
 				<Link href="/projects">
 					<button className={styles.heroBtn} role="button">
-						My Projects
+						Resume
 					</button>
 				</Link>
 			</div>
