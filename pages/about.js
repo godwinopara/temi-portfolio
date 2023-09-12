@@ -1,3 +1,4 @@
+import AboutMe from "@/components/about/AboutMe";
 import Layout from "@/components/layout/Layout";
 import Head from "next/head";
 
@@ -12,7 +13,7 @@ const About = () => {
 			</Head>
 
 			<Layout>
-				<div className="container">All About</div>
+				<AboutMe />
 			</Layout>
 		</>
 	);

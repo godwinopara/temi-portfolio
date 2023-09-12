@@ -27,7 +27,6 @@ const Talk = () => {
 		<div className="container">
 			<div className={S.heading}>
 				<h1>Recent Talks</h1>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, corporis!</p>
 			</div>
 			<div className={S.talkWrapper}>
 				{talks?.map((talk) => {

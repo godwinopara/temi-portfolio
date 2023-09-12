@@ -25,7 +25,6 @@ const Projects = () => {
 		<div className="container">
 			<div className={styles.heading}>
 				<h1>Recent Projects</h1>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, corporis!</p>
 			</div>
 			<div className={styles.project__wrapper}>
 				{projectList?.map((project, id) => {

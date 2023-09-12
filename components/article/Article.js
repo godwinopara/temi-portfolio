@@ -89,7 +89,6 @@ const Article = () => {
 		<div className="container">
 			<div className={S.heading}>
 				<h1>Recent Articles</h1>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, corporis!</p>
 			</div>
 			<div className={S.articleWrapper}>
 				{articles?.map((article) => {
