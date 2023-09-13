@@ -6,7 +6,7 @@
 }
 
 .experinceTitle h3 {
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-bottom: 35px;
 }
 
@@ -74,4 +74,13 @@
 	align-items: center;
 	padding: 10px 30px;
 	display: flex;
+}
+
+
+
+@media screen and (min-width:1024px) {
+	.experinceTitle h3 {
+			font-size: 4rem;
+			margin-bottom: 35px;
+		}
 }

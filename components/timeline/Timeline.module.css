@@ -1,6 +1,5 @@
 .timeline {
 	border-bottom: 1px dotted #6e61ff;
-	width: 90%;
 	padding:2rem 0;
 }
 
@@ -39,3 +38,11 @@
 	max-width: 90%;
 }
 
+
+@media screen and (min-width:1024px) {
+	.timeline {
+		
+			width: 90%;
+			
+		}
+}
