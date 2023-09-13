@@ -1,22 +1,15 @@
 /* Experience section */
 
 .experinceWrapper {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 1rem;
-	justify-content: space-between;
 	margin-bottom: 100px;
+	margin-top: 100px;
 }
 
 .experinceTitle h3 {
 	font-size: 4rem;
-	margin-bottom: 15px;
-}
-
-.experinceTitle p {
-	width: 80%;
 	margin-bottom: 35px;
 }
+
 
 .resumeBtn {
 	position: relative;

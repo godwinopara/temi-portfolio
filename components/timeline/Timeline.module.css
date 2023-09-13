@@ -1,48 +1,41 @@
 .timeline {
-	display: flex;
-	align-items: flex-start;
-	gap: 1rem;
+	border-bottom: 1px dotted #6e61ff;
+	width: 90%;
+	padding:2rem 0;
 }
 
-.timelineMarker {
-	border-left: 2px solid #1d1d1d;
-	position: relative;
-	height: 150px;
-}
 
-.timelineDot {
-	z-index: 2;
-	width: 20px;
-	height: 20px;
-	border: 2px solid #1d1d1d;
-	border-radius: 50%;
-	position: absolute;
-	top: 0%;
-	bottom: auto;
-	left: -11px;
-	right: 0%;
-	background-color: black;
-}
 
 .timelineInfo {
 	min-width: 160px;
+	margin-bottom: 10px;
 }
 
-.timelineInfo h4 {
+.timelineInfo h3 {
+	font-size: 1.9rem;
+	line-height: 1;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.timeline p{
+	font-size: 1.5rem;
+}
+
+.timelineContent li{
+	list-style: circle;
 	font-size: 1.4rem;
 }
 
-.timelineContent h4 {
-	font-size: 1.7rem;
-	line-height: 1;
-	margin-bottom: 15px;
-}
+
 
 .timelineContent {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
-.timelineContent p {
-	font-size: 1.5rem;
+
+.timelineContent {
+	max-width: 90%;
 }
+
