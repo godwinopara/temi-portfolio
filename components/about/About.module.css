@@ -1,12 +1,13 @@
 .aboutContainer {
-	max-width: 960px;
-	margin: auto;
+	/* max-width: 960px; */
+	margin: 8rem auto 0;
 }
 
 .wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 3rem 0;
 }
 
 .imageWrapper {
@@ -27,8 +28,72 @@
 	margin-left: 5rem;
 }
 
+.descWrapper p{
+	width: 80%;
+}
+
 .descTitle {
 	margin-bottom: 2rem;
 	font-size: 3.5rem;
 	font-weight: 700;
+}
+
+
+/* Experience section */
+
+.experinceWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5rem;
+	justify-content: space-between;
+}
+
+.experinceTitle p{
+	width: 80%;
+}
+
+.timeline{
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.timelineMarker{
+	border-left: 2px solid #1d1d1d;
+	position: relative;
+	height: 170px;
+
+}
+
+.timelineDot{
+	z-index: 2;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #1d1d1d;
+	border-radius: 50%;
+	position: absolute;
+	top: 0%;
+	bottom: auto;
+	left: -11px;
+	right: 0%;
+	background-color: black;
+}
+
+.timelineInfo{
+	min-width: 160px;
+}
+
+.timelineInfo h4{
+	font-size: 1.4rem;
+}
+
+.timelineContent h4{
+	font-size: 1.7rem;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+.timelineContent{
+	margin-bottom: 25px;
+	margin-left: 30px;
 }
