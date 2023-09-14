@@ -24,6 +24,13 @@
 	font-size: 1.6rem;
 }
 
+.projectImg {
+	background-color: #f0f0f0;
+	height: 220px;
+	position: relative;
+	cursor: pointer;
+}
+
 @media screen and (min-width: 1024px) {
 	/* =============== */
 	/* PROJECT STYLES */
@@ -38,12 +45,7 @@
 		font-size: 1.8rem;
 	}
 
-	.projectImg {
-		background-color: #f0f0f0;
-		height: 220px;
-		position: relative;
-		cursor: pointer;
-	}
+	
 
 	.projectImg img {
 		object-fit: cover;
