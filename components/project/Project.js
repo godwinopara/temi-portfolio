@@ -3,22 +3,38 @@ import styles from "./ProjectPageCard.module.css";
 
 const Projects = () => {
 	const projectList = [
-		{ title: "Apple", imgUrl: "/images/apple-watch.jpg", subtitle: "Development", year: 2023 },
-		{ title: "Chanel", imgUrl: "/images/chanel.jpg", subtitle: "Design", year: 2023 },
 		{
-			title: "Impression",
-			imgUrl: "/images/impression.jpg",
-			subtitle: "Branding/Design",
+			id: 1,
+			title: "Federated Learning and RaspberryPi",
+			imgUrl: "/images/AI.jpeg",
+			subtitle: "RASPBERRY PI",
+			projectLink: "https://github.com/TemitopeOladokun/FederatedLearningandRaspberryPi",
+			year: 2023,
+		},
+		{
+			id: 2,
+			title: " ChatGPT-Prompt-for-Developers",
+			imgUrl: "/images/chatgpt-img.jpeg",
+			subtitle: "ARTIFICIAL INTELLIGENCE",
+			projectLink: "https://github.com/TemitopeOladokun/ChatGPT-Prompt-Engineering-for-Developers",
+			year: 2023,
+		},
+		{
+			id: 3,
+			title: "FYYUR",
+			imgUrl: "/images/music-booking.png",
+			subtitle: "Web Development",
+			projectLink: "https://github.com/TemitopeOladokun/Fyyur",
 			year: 2022,
 		},
-		{ title: "Fundezy", imgUrl: "/images/fundezy.jpg", subtitle: "Development", year: 2021 },
 		{
-			title: "Automating Experience",
-			imgUrl: "/images/AI.jpeg",
+			id: 4,
+			title: "Trivia API",
+			imgUrl: "/images/api.webp",
 			subtitle: "Machine Learning",
-			year: 2021,
+			projectLink: "https://github.com/TemitopeOladokun/backend",
+			year: 2022,
 		},
-		{ title: "Sync", imgUrl: "/images/sync.jpg", subtitle: "Design", year: 2021 },
 	];
 
 	return (

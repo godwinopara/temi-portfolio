@@ -25,7 +25,7 @@ const SelectedProjects = () => {
 	return (
 		<section className="container" id="project">
 			<div className={styles.projectHeading}>
-				<h2>Selected Projects</h2>
+				<h2>Featured Projects</h2>
 				<Link href="/projects">View all Projects</Link>
 			</div>
 			{projects?.map((project, id) => {
