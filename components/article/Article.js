@@ -83,6 +83,24 @@ const Article = () => {
 				"I have been managing Artificial Intelligence Engineers and products for approximately 3years at AB InBev and one of my team’s value is developing Growth Mindset to avoid being left out.",
 			link: "https://medium.com/@Temitope_Oladokun/my-chatgpt-masterclass-at-anheuser-busch-inbev-97d4621db9d",
 		},
+		{
+			id: 10,
+			title: "My safe place as Technical Product Manager",
+			imgUrl: "/images/prototyping.png",
+			site: "MEDIUM",
+			description:
+				"To bring your idea to life, you must employ people better than you. Whenever I am recruiting, I look out for the following: Hunger for growth, Value system and the Vision of the business.",
+			link: "https://medium.com/@Temitope_Oladokun/my-chatgpt-masterclass-at-anheuser-busch-inbev-97d4621db9d",
+		},
+		{
+			id: 11,
+			title: "How to gracefully handle Product Monetization as a TPM or PM.",
+			imgUrl: "/images/monitization.webp",
+			site: "MEDIUM",
+			description:
+				"I have been opportuned to build several Emerging tech products (Computer Vision, NLP, Augmented Reality and Generative AI) and I am always amazed at how people use product.",
+			link: "https://medium.com/@Temitope_Oladokun/my-chatgpt-masterclass-at-anheuser-busch-inbev-97d4621db9d",
+		},
 	];
 
 	return (
