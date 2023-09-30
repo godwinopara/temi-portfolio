@@ -22,6 +22,25 @@ const Talk = () => {
 			imgUrl: "/images/data-scientist.jpeg",
 			link: "https://thefemtech.com/",
 		},
+		{
+			title: "AI and the need for increased female gender participation for its development",
+			host: "Data Scientist Network",
+			imgUrl: "/images/ai-startup-twitter.jpeg",
+			link: "http://bit.ly/dsn_ladies_in_AI",
+		},
+		{
+			title:
+				"The Evolution of Cloud and Edge Computing Technology in Industrial Applications Panel Discussion.",
+			host: "Fierce",
+			imgUrl: "/images/industral-iot.jpeg",
+			link: "https://thefemtech.com/",
+		},
+		{
+			title: "AI in industrial and manufacturing.",
+			host: "Fierce",
+			imgUrl: "/images/ai-week.jpeg",
+			link: "https://thefemtech.com/",
+		},
 	];
 	return (
 		<div className="container">
