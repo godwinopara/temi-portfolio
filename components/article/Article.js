@@ -101,6 +101,51 @@ const Article = () => {
 				"I have been opportuned to build several Emerging tech products (Computer Vision, NLP, Augmented Reality and Generative AI) and I am always amazed at how people use product.",
 			link: "https://medium.com/@Temitope_Oladokun/my-chatgpt-masterclass-at-anheuser-busch-inbev-97d4621db9d",
 		},
+		{
+			id: 12,
+			title: "Building resilient technical team as a Technical Product Manager",
+			imgUrl: "/images/resilence.webp",
+			site: "MEDIUM",
+			description:
+				"A resilient technical team is one that is able to bounce back from setbacks and challenges. It is a team that is able to adapt to change and continue to deliver high-quality work, even in difficult times.",
+			link: "https://medium.com/@Temitope_Oladokun/building-resilient-technical-team-as-a-technical-product-manager-ffa67793f60d",
+		},
+		{
+			id: 13,
+			title: "Kubernetes and Pod and it’s implementation",
+			imgUrl: "/images/kub.webp",
+			site: "MEDIUM",
+			description:
+				" I am using this post to explain the concept around Pod thereafter touch on the other components in other posts.",
+			link: "https://medium.com/@Temitope_Oladokun/kubernetes-and-pod-and-its-implementation-f6f744ed6c82",
+		},
+		{
+			id: 14,
+			title: "Pod in Kubernetes Part 2",
+			imgUrl: "/images/kub2.webp",
+			site: "MEDIUM",
+			description:
+				"I wrote the first part of this post some days back, titled Kubernetes and Pod and it’s implementation. Refer to it to get more context about the topic. ",
+			link: "https://medium.com/@Temitope_Oladokun/pod-in-kubernetes-2-b2213860940d",
+		},
+		{
+			id: 15,
+			title: "Application of Ingress in Kubernetes.",
+			imgUrl: "/images/kub3.webp",
+			site: "MEDIUM",
+			description:
+				"Kubernetes ingress is a controller that exposes services on the external network. It enables load balancing traffic between many services, the termination of SSL/TLS connections, and the routing of data based on path rules. The below icon represents an Ingress.",
+			link: "https://blog.devops.dev/application-of-ingress-in-kubernetes-56d98c255225",
+		},
+		{
+			id: 16,
+			title: "A Beginner’s Guide to Kubernetes Secrets Management",
+			imgUrl: "/images/kub4.png",
+			site: "MEDIUM",
+			description:
+				"A Kubernetes secret is an object that stores sensitive information like passwords, API keys, tokens, and certificates in a secure manner. These pieces of confidential information are saved in an encoded or encrypted format.",
+			link: "https://blog.devops.dev/a-beginners-guide-to-kubernetes-secrets-management-f710a7893287",
+		},
 	];
 
 	return (
