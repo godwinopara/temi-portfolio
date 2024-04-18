@@ -11,10 +11,10 @@ const SelectedTalks = () => {
 			link: "https://www.youtube.com/watch?v=xDT-Woa8cPU",
 		},
 		{
-			title: "The New Age of AI Opportunites for Startups",
-			host: "Lagos Startup Week 2023",
-			imgUrl: "/images/ai-startup.jpeg",
-			link: "https://lagosstartupweek2023.sched.com/event/1NhAD/panel-the-new-age-of-ai-opportunities-for-startups",
+			title: " Artificial Intelligence and the improvement in deepfake sophistication",
+			host: "Arise New",
+			imgUrl: "/images/arise.png",
+			link: "https://youtu.be/PuWIfWC2QxU",
 		},
 		{
 			title: "Career of a Data Scientist",

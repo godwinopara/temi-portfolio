@@ -10,7 +10,7 @@ const Hero = () => {
 					Building for <span>humans</span>
 				</h1>
 				<p>
-					Hi {`I'm`} <b>Temitope</b>, A <b>Technical Product Manager</b>. I Build unforgetable
+					Hi {`I'm`} <b>Tèmítọ́pẹ́ </b>, A <b>Technical Product Manager</b>. I Build unforgetable
 					Solutions for Startups and also help businesses establish a strong online presence and
 					stand out in their industry.
 				</p>

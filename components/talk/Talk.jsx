@@ -5,6 +5,12 @@ import * as S from "./Talk.module.css";
 const Talk = () => {
 	const talks = [
 		{
+			title: " Artificial Intelligence and the improvement in deepfake sophistication",
+			host: "Arise New",
+			imgUrl: "/images/arise.png",
+			link: "https://youtu.be/PuWIfWC2QxU",
+		},
+		{
 			title: "Women In Tech",
 			host: "Women in technology Spotlight",
 			imgUrl: "/images/women-in-tech.jpeg",
