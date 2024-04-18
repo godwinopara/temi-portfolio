@@ -25,6 +25,7 @@ const Footer = () => {
 					<div>
 						<Image src="/images/avatar.png" height={50} width={50} alt="logo" />
 						<h3>Temitope</h3>
+						<p className="sign">Undying Resilience</p>
 						<p>Technical Product Manager</p>
 					</div>
 					<ul>
