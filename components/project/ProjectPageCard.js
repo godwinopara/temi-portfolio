@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./ProjectPageCard.module.css";
 import Link from "next/link";
 
-const ProjectPageCard = ({ imgUrl, title, subtitle, year, projectLink }) => {
+const ProjectPageCard = ({ imgUrl, title, subtitle, year, projectLink, linkName }) => {
 	return (
 		<div className={styles.projectImg__wrapper}>
 			<div className={styles.project__img}>
@@ -17,7 +17,7 @@ const ProjectPageCard = ({ imgUrl, title, subtitle, year, projectLink }) => {
 				<p>{subtitle}</p>
 				<button>
 					<Link href={projectLink} rel="noopener noreferrer" target="_blank">
-						Github
+						{linkName || "Github"}
 					</Link>
 				</button>
 			</div>

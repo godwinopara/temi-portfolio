@@ -5,6 +5,15 @@ const Projects = () => {
 	const projectList = [
 		{
 			id: 1,
+			title: "Becoming a Technical Product Manager",
+			imgUrl: "/images/ebook.jpg",
+			subtitle: "EBOOK",
+			linkName: "Download Ebook",
+			projectLink: "https://forms.gle/oUPfcEoYMZJ9iX7N7",
+			year: 2024,
+		},
+		{
+			id: 2,
 			title: "Federated Learning and RaspberryPi",
 			imgUrl: "/images/AI.jpeg",
 			subtitle: "RASPBERRY PI",
@@ -12,7 +21,7 @@ const Projects = () => {
 			year: 2023,
 		},
 		{
-			id: 2,
+			id: 3,
 			title: " ChatGPT-Prompt-for-Developers",
 			imgUrl: "/images/chatgpt-img.jpeg",
 			subtitle: "ARTIFICIAL INTELLIGENCE",
@@ -20,7 +29,7 @@ const Projects = () => {
 			year: 2023,
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "FYYUR",
 			imgUrl: "/images/music-booking.png",
 			subtitle: "Web Development",
@@ -28,7 +37,7 @@ const Projects = () => {
 			year: 2022,
 		},
 		{
-			id: 4,
+			id: 5,
 			title: "Trivia API",
 			imgUrl: "/images/api.webp",
 			subtitle: "Machine Learning",
