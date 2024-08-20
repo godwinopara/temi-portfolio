@@ -6,10 +6,10 @@ const Projects = () => {
 		{
 			id: 1,
 			title: "Finding your Happiness as a Techie",
-			imgUrl: "/images/temibook.jpg",
+			imgUrl: "/images/temibook.png",
 			subtitle: "EBOOK",
-			linkName: "Download Ebook",
-			projectLink: "https://forms.gle/oUPfcEoYMZJ9iX7N7",
+			linkName: "Coming Soon",
+			projectLink: "#",
 			year: 2024,
 		},
 		{
