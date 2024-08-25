@@ -9,7 +9,7 @@ const ContactDetails = () => {
 
       <div className={styles.email}>
         <div>Email</div>
-        <p>temitopeo49@gmail.com</p>
+        <p>techiegeeksinternational@gmail.com</p>
       </div>
 
       <ul className={styles.contactLinks}>
