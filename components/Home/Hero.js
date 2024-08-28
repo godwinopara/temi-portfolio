@@ -10,9 +10,7 @@ const Hero = () => {
 					Building for <span>humans</span>
 				</h1>
 				<p>
-					Hi {`I'm`} <b>Tèmítọ́pẹ́ </b>, A <b>Technical Product Manager</b>. I Build unforgetable
-					Solutions for Startups and also help businesses establish a strong online presence and
-					stand out in their industry.
+					Hi {`I'm`} <b>Tèmítọ́pẹ́ Ọládòkun</b>. <br/> I build unforgettable artificial intelligence solutions for companies and consult for startups, helping them harness the power of AI to drive innovation and achieve their goals.
 				</p>
 				<Link href="/projects">
 					<button className={styles.heroBtn} role="button">
