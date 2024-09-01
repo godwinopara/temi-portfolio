@@ -16,7 +16,7 @@ const AboutMe = () => {
             <p>
               I have over a decade experience in Technology and over half a decade in Product Management. I manage
               Technical products (Artificial Intelligence, Blockchain, Augmented Reality,  Software
-              Application and et cetera) for more than five(5) African countries and out of the African of continent.{" "}
+              Application and et cetera) for more than five(5) African countries and out of the African continent.{" "}
               <br />I validate my products through the lens of my value system, humanity and my Faith.
             </p>
           </div>
