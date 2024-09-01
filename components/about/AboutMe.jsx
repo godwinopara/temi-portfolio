@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className={S.aboutContainer}>
         <div className={S.wrapper}>
           <div className={S.imageWrapper}>
-            <Image src="/images/temi.jpg" fill alt="profile picture" />
+            <Image src="/images/temi-jpg.jpg" fill alt="profile picture" />
           </div>
           <div className={S.descWrapper}>
             <h2 className={S.descTitle}>Hello, I'm Tèmítọ́pẹ́ Ọládòkun 😄</h2>

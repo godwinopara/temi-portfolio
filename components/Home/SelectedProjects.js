@@ -7,16 +7,14 @@ const SelectedProjects = () => {
 		{
 			title: "Federated Learning and RaspberryPi",
 			subTitle: "RASPBERRY PI",
-			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
+			description:"This project was initially done by Daniele Gadler.",
 			imgUrl: "/images/AI.jpeg",
 			link: "https://github.com/TemitopeOladokun/FederatedLearningandRaspberryPi",
 		},
 		{
 			title: " ChatGPT-Prompt-for-Developers",
 			subTitle: "ARTIFICIAL INTELLIGENCE",
-			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rem placeat excepturidebitis, ea, magnam ipsum itaque enim nemo assumenda modi quo, ",
+			description:"This is a python notebook for ChatGPT Prompt for Developers",
 			imgUrl: "/images/chatgpt-img.jpeg",
 			link: "https://github.com/TemitopeOladokun/ChatGPT-Prompt-Engineering-for-Developers",
 		},
