@@ -7,10 +7,10 @@ const ContactDetails = () => {
       <h1>Love to hear from you,</h1>
       <h1>Get in touch 👋</h1>
 
-      {/* <div className={styles.email}>
+      <div className={styles.email}>
         <div>Email</div>
-        <p>temitopeoladokun.com</p>
-      </div> */}
+        <p>techiegeeksinternational@gmail.com</p>
+      </div>
 
       <ul className={styles.contactLinks}>
         <li>

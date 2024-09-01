@@ -7,7 +7,7 @@ const ContactComponent = () => {
 		<section className="container">
 			<div className={styles.contactWrapper}>
 				<ContactDetails />
-				<ContactForm />
+				{/* <ContactForm /> */}
 			</div>
 		</section>
 	);
