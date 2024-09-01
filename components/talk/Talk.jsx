@@ -42,12 +42,7 @@ const Talk = () => {
 			imgUrl: "/images/industral-iot.jpeg",
 			link: "https://thefemtech.com/",
 		},
-		{
-			title: "AI in industrial and manufacturing.",
-			host: "Fierce",
-			imgUrl: "/images/ai-week.jpeg",
-			link: "https://thefemtech.com/",
-		},
+		
 	];
 	return (
 		<div className="container">

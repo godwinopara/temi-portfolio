@@ -8,8 +8,8 @@ const Projects = () => {
 			title: "Finding your Happiness as a Techie",
 			imgUrl: "/images/temibook.png",
 			subtitle: "EBOOK",
-			linkName: "Coming Soon",
-			projectLink: "#",
+			linkName: "Download Ebook",
+			projectLink: "https://forms.gle/WS3yLhrDAA5Yx2BM8",
 			year: 2024,
 		},
 		{
@@ -17,8 +17,8 @@ const Projects = () => {
 			title: "Becoming a Technical Product Manager",
 			imgUrl: "/images/ebook.jpg",
 			subtitle: "EBOOK",
-			linkName: "Download Ebook",
-			projectLink: "https://forms.gle/oUPfcEoYMZJ9iX7N7",
+			linkName: "Closed",
+			projectLink: "#",
 			year: 2024,
 		},
 		{

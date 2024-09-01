@@ -17,9 +17,7 @@ const Volunteer = () => {
 
       description: "I joined a group of seasoned Artificial Intelligence trainers to educate Malaysian citizens.",
       description2: "This training is to prepare them for the workforce that got tweaked due to the new Normal (COVID 19). ",
-// Most of the trainees got an instant job in Singapore, Malaysia and others.
-// 
-    }
+    },
     {
       id: 3,
       date: "MAR 2020 - DEC 2020",
