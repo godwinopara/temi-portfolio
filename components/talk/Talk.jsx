@@ -11,17 +11,18 @@ const Talk = () => {
 			link: "https://youtu.be/PuWIfWC2QxU",
 		},
 		{
-			title: "Women In Tech",
-			host: "Women in technology Spotlight",
-			imgUrl: "/images/women-in-tech.jpeg",
-			link: "https://www.youtube.com/watch?v=xDT-Woa8cPU",
-		},
-		{
 			title: "The New Age of AI Opportunites for Startups",
 			host: "Lagos Startup Week 2023",
 			imgUrl: "/images/ai-startup.jpeg",
 			link: "https://lagosstartupweek2023.sched.com/event/1NhAD/panel-the-new-age-of-ai-opportunities-for-startups",
 		},
+		{
+			title: "Women In Tech",
+			host: "Women in technology Spotlight",
+			imgUrl: "/images/women-in-tech.jpeg",
+			link: "https://www.youtube.com/watch?v=xDT-Woa8cPU",
+		},
+		
 		{
 			title: "Career of a Data Scientist",
 			host: "TheFemTech",

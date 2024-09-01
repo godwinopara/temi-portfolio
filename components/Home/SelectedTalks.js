@@ -4,12 +4,7 @@ import TalkCard from "../talk/TalkCard";
 
 const SelectedTalks = () => {
 	const selectedTalks = [
-		{
-			title: "Women In Tech",
-			host: "Women in technology Spotlight",
-			imgUrl: "/images/women-in-tech.jpeg",
-			link: "https://www.youtube.com/watch?v=xDT-Woa8cPU",
-		},
+		
 		{
 			title: " Artificial Intelligence and the improvement in deepfake sophistication",
 			host: "Arise New",
@@ -21,6 +16,12 @@ const SelectedTalks = () => {
 			host: "TheFemTech",
 			imgUrl: "/images/data-scientist.jpeg",
 			link: "https://thefemtech.com/",
+		},
+		{
+			title: "Women In Tech",
+			host: "Women in technology Spotlight",
+			imgUrl: "/images/women-in-tech.jpeg",
+			link: "https://www.youtube.com/watch?v=xDT-Woa8cPU",
 		},
 	];
 
