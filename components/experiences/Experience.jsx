@@ -35,7 +35,7 @@ const Experience = () => {
   return (
     <div className={S.experinceWrapper}>
       <div className={S.experinceTitle}>
-        <h3>Some Of My Experiences</h3>
+        <p className="eyebrow">Experience</p><h3>Work that stays close to the problem.</h3>
       </div>
 
       <div className={S.experinceContent}>

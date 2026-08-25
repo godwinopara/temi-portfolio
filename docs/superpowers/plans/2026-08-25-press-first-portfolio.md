@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Rebuild the portfolio as a responsive editorial site that converts press and event bookers into email enquiries.
+**Goal:** Rebuild the portfolio as a responsive, motion-led speaker site that converts press and event bookers into email enquiries.
 
-**Architecture:** Preserve the Pages Router while moving portfolio records into a single content module and composing each route from reusable shell, section, and editorial-card components. Global CSS variables provide the sole runtime token source; CSS Modules own local layouts and state styles.
+**Architecture:** Preserve the Pages Router while moving portfolio records into a single content module and composing each route from reusable shell, stage, and poster-card components. Global CSS variables provide the sole runtime token source; CSS Modules own local layouts, marquee, reveal, and reduced-motion styles.
 
 **Tech Stack:** Next.js 13.1, React 18, CSS Modules, `next/image`, `next/link`, `react-icons`.
 
@@ -15,7 +15,9 @@
 - Keep the Pages Router and do not add a CMS, backend, analytics, contact-form submission, or media-kit generation.
 - Primary audience: press and event bookers; secondary audience: consulting clients.
 - Primary conversion uses `mailto:techiegeeksinternational@gmail.com`.
-- Use the approved editorial-humanist palette: warm cream, near-black, moss-green, and restrained terracotta.
+- Use the approved poster-led stage palette: near-black, off-white, acidic lime, and restrained warm red.
+- Use the existing Arise News and Lagos Startup Week posters as a hero collage until an on-stage portrait is provided.
+- Keep revised design changes uncommitted until the user gives explicit final visual approval.
 - Meet WCAG 2.2 AA and support `prefers-reduced-motion: reduce`.
 - Use `next/image` for local images and preserve external URLs unless correcting a confirmed typo.
 

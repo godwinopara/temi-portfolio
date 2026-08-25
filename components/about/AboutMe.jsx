@@ -5,31 +5,25 @@ import Volunteer from "../volunteering/Volunteer";
 
 const AboutMe = () => {
   return (
-    <div className="container">
+    <div className={S.page}>
+      <header className={S.hero}>
+        <div><p className="eyebrow">About</p><h1>About,<br />in context.</h1></div>
+        <div className={S.heroAccent} aria-hidden="true"><span>People × possibility</span></div>
+      </header>
       <div className={S.aboutContainer}>
-        <div className={S.wrapper}>
+        <section className={S.wrapper} aria-labelledby="about-title">
           <div className={S.imageWrapper}>
-            <Image src="/images/temi-jpg.jpg" fill alt="profile picture" />
+            <Image src="/images/temi-jpg.jpg" fill sizes="(min-width: 900px) 44vw, 100vw" alt="Tèmítọ́pẹ́ Ọládòkun" />
           </div>
           <div className={S.descWrapper}>
-            <h2 className={S.descTitle}>Hello, I'm Tèmítọ́pẹ́ Ọládòkun 😄</h2>
-            <p>
-              I have over a decade experience in Technology and over half a decade in Product Management. I manage
-              Technical products (Artificial Intelligence, Blockchain, Augmented Reality, Software Application and et
-              cetera) for more than five(5) African countries and out of the African continent. <br />I validate my
-              products through the lens of my value system and Humanity.
-            </p>
+            <p className="eyebrow">A product-minded technologist</p>
+            <h2 id="about-title" className={S.descTitle}>Building technology through the lens of humanity.</h2>
+            <p>I have over a decade of experience in technology and more than five years in product management. My work spans AI, blockchain, augmented reality, and software products across African markets and beyond.</p>
+            <p>I validate products through a value system grounded in people: the people who build them, use them, and live with their consequences.</p>
           </div>
-        </div>
-
-        {/* Experience */}
+        </section>
         <Experience />
-
-        {/* Volunteering */}
         <Volunteer />
-
-        {/* skills */}
-        <div></div>
       </div>
     </div>
   );

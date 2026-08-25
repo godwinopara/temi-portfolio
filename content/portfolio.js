@@ -24,6 +24,7 @@ export const projects = [
 ];
 
 export const talks = [
+  { id: "channels-tv-interview", title: "Interview with Channels TV", host: "Channels Television", image: "/images/channels.jpeg", link: "https://www.youtube.com/watch?v=czUOXsurllU" },
   { id: "arise-deepfake", title: "Artificial Intelligence and the Improvement in Deepfake Sophistication", host: "Arise News", image: "/images/arise.png", link: "https://youtu.be/PuWIfWC2QxU" },
   { id: "lagos-ai-startups", title: "The New Age of AI Opportunities for Startups", host: "Lagos Startup Week 2023", image: "/images/ai-startup.jpeg", link: "https://lagosstartupweek2023.sched.com/event/1NhAD/panel-the-new-age-of-ai-opportunities-for-startups" },
   { id: "women-in-tech", title: "Women in Tech", host: "Women in Technology Spotlight", image: "/images/women-in-tech.jpeg", link: "https://www.youtube.com/watch?v=xDT-Woa8cPU" },

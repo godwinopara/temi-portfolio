@@ -54,7 +54,7 @@ const Volunteer = () => {
   return (
     <div className={S.volunteerWrapper}>
       <div className={S.volunteerTitle}>
-        <h3>Some Of My Volunteering Works</h3>
+        <p className="eyebrow">Contribution</p><h3>Building the ecosystem, too.</h3>
       </div>
       <div className={S.volunteerContent}>
         {volunteerings?.map((volunteer) => {

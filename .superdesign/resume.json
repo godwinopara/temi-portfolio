@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/": {
+      "targetKind": "existing-ui",
+      "projectId": "e9961151-18d0-4099-a0d0-1e3bf45523d2",
+      "activeDraftId": "7b088241-e68d-4f7b-bad4-f09f06a32d0b",
+      "designSystemPath": ".superdesign/design-system.md",
+      "referenceIds": [
+        "b57c4ec1-d9d3-48b9-be69-d35fb2e59394"
+      ],
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "styles/globals.css",
+        "content/portfolio.js"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "b3cb993ba1f1b6cb13249d8605b8344a03c9a0d215644dc2a24ba0f0d75616ec",
+        "styles/globals.css": "8c6de2783b099accd48c55be301f248bd6d9c94ca23977e412bc945c6d78016e",
+        "content/portfolio.js": "08cec0e8de661e68747870360d1bde1748195a3596e91566fb0d51e9a2317504"
+      },
+      "components": [],
+      "drafts": {
+        "7b088241-e68d-4f7b-bad4-f09f06a32d0b": {
+          "title": "Homepage — Editorial Signal",
+          "visualDirection": "blank-slate editorial signal: off-white, cobalt, chartreuse, vermilion, and asymmetric editorial grid",
+          "currentVersion": 1
+        }
+      },
+      "updatedAt": "2026-08-25T15:45:25.571Z"
+    }
+  }
+}

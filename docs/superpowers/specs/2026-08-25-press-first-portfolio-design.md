@@ -13,25 +13,26 @@ Rebuild the existing Temitope Oladokun portfolio as an editorial, press-first ma
 
 ## Visual direction
 
-Use the approved **editorial humanist** direction:
+Use the approved **human-centred innovator** direction:
 
-- warm cream background, near-black reading text, moss-green interactive states, and a restrained terracotta accent;
-- high-contrast serif for display headings paired with a legible sans-serif for navigation and body copy;
-- subtle section folios, fine divider rules, asymmetrical desktop composition, and deliberate image crops;
-- restrained CSS motion only, with equivalent static presentation when `prefers-reduced-motion: reduce` is set.
+- warm parchment canvas, deep forest-green anchor, sunrise-yellow field, and coral highlight;
+- expressive serif display typography paired with a clean sans-serif body and compact mono-style utility labels;
+- a portrait-led hero with optimistic abstract geometry rather than a poster collage;
+- intentionally spacious, editorial composition with rounded organic shapes and a quiet dark ticker;
+- purposeful motion: type reveals, gentle geometric drift, section reveals, and card lift; every motion treatment must have an equivalent static state when `prefers-reduced-motion: reduce` is set.
 
-The result must feel assured, human, and contemporary. It must not use generic AI gradients, heavy glass effects, or animation that obscures content.
+The result must feel optimistic, intelligent, and deeply human. It must not use generic AI gradients, copy another speaker's branded copy, or use animation that obscures content.
 
 ## Information architecture
 
 ### Homepage
 
-1. Press-oriented hero with a direct email CTA.
-2. Speaking-topic overview for booking context.
-3. Two featured talks selected from existing talk content.
+1. Portrait-led hero with direct email CTA, abstract geometry, and an animated credential marquee.
+2. Compact biography and credibility/metric rail.
+3. Signature-talk list for booking context, plus two featured talks selected from existing talk content.
 4. Selected work/projects.
 5. One featured article selected from existing writing.
-6. Compact biography and a repeated email CTA.
+6. Repeated stage-oriented email CTA.
 7. Footer with key links and contact information.
 
 ### Existing routes
