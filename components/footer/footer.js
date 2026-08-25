@@ -1,54 +1,9 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
-import Image from "next/image";
+import { navigation, site } from "@/content/portfolio";
 
-const Footer = () => {
-	return (
-		<footer className={styles.footer}>
-			<div className="container">
-				<div className={styles.footerHeading}>
-					<div>
-						<h3>{`Let's`} Talk!</h3>
-						<p>
-							I am always open to connect with people in tech, learn more about product management,
-							and discuss navigating this rewarding career path.
-						</p>
-					</div>
-					<div>
-						<Link href="/contact">
-							<button>Contact Me</button>
-						</Link>
-					</div>
-				</div>
-
-				<div className={styles.footerLink}>
-					<div>
-						<Image src="/images/avatar.png" height={50} width={50} alt="logo" />
-						<h3>Tèmítọ́pẹ́ Ọládòkun</h3>
-						<p className="sign">Undying Resilience</p>
-					</div>
-					<ul>
-						<li>
-							<Link href="/about">About</Link>
-						</li>
-						<li>
-							<Link href="/projects">Project</Link>
-						</li>
-						<li>
-							<Link href="/talks">Talks</Link>
-						</li>
-						<li>
-							<Link href="/articles">Articles</Link>
-						</li>
-
-						<li>
-							<Link href="/contact">Contact</Link>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-	);
-};
-
+const Footer = () => <footer className={styles.footer}><div className="container">
+  <div className={styles.callout}><div><p className="eyebrow">Speaking & press</p><h2>Let’s make the conversation useful.</h2></div><a className={styles.cta} href={site.contactEmail}>Email for speaking & press <span aria-hidden="true">↗</span></a></div>
+  <div className={styles.bottom}><div><Link className={styles.name} href="/">{site.name}</Link><p>AI product leader, speaker, and technologist.</p></div><ul>{navigation.map((item) => <li key={item.href}><Link href={item.href}>{item.label}</Link></li>)}</ul><a href={site.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+</div></footer>;
 export default Footer;

@@ -5,10 +5,9 @@ import Footer from "../footer/footer";
 const Layout = ({ children }) => {
 	return (
 		<div>
-			<header className="container">
-				<NavBar />
-			</header>
-			<main>{children}</main>
+			<a className="skipLink" href="#main-content">Skip to content</a>
+			<header><NavBar /></header>
+			<main id="main-content" tabIndex="-1">{children}</main>
 			<Footer />
 		</div>
 	);

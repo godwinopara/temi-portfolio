@@ -1,89 +1,28 @@
-import { IoIosMenu } from "react-icons/io";
-import styles from "@/components/navbar/Navbar.module.css";
-import { useState } from "react";
+import { IoIosClose, IoIosMenu } from "react-icons/io";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import styles from "./Navbar.module.css";
+import { navigation, site } from "@/content/portfolio";
 
 export default function NavBar() {
-	const [navIsOpen, setNavIsOpen] = useState(false);
+  const [navIsOpen, setNavIsOpen] = useState(false);
 
-	const toggleNav = () => {
-		setNavIsOpen((navOpen) => !navOpen);
-	};
+  useEffect(() => {
+    const closeOnEscape = (event) => event.key === "Escape" && setNavIsOpen(false);
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, []);
 
-	return (
-		<>
-			{/* Desktop Nav */}
-			<nav className={`${styles.desktopNav} container`}>
-				<Link href="/">
-					<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
-				</Link>
-				<ul className={styles.navList}>
-					<li>
-						<Link href="/about">About</Link>
-					</li>
-
-					<li>
-						<Link href="/projects">Projects</Link>
-					</li>
-					<li>
-						<Link href="/talks">Talks</Link>
-					</li>
-					<li>
-						<Link href="/articles">Articles</Link>
-					</li>
-					<li>
-						<Link href="/contact">Contact</Link>
-					</li>
-				</ul>
-			</nav>
-
-			{/* DropDown Nav */}
-			<div className={`${navIsOpen ? styles.toggleNav : ""}`}>
-				<nav className={styles.dropDownNav}>
-					<div className={styles.logoHamburgerWrapper}>
-						<Link href="/">
-							<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
-						</Link>
-						<div className={styles.hamburger} onClick={toggleNav}>
-							<IoIosMenu />
-						</div>
-					</div>
-					<ul className={styles.navList}>
-						<li>
-							<Link href="/">Home</Link>
-						</li>
-						<li>
-							<Link href="/projects">Project</Link>
-						</li>
-
-						<li>
-							<Link href="/contact">Contact</Link>
-						</li>
-						<li>
-							<Link href="/resume">Resume</Link>
-						</li>
-					</ul>
-					<div className={styles.social}>
-						<div>facebook</div>
-						<div>Instagram</div>
-						<div>Github</div>
-						<div>Linkedin</div>
-					</div>
-				</nav>
-			</div>
-
-			{/* Main Mobile Nav DropDown */}
-			<nav>
-				<div className={`${styles.logoHamburgerWrapper} ${styles.mobileNav}`}>
-					<Link href="/">
-						<Image src="/images/avatar-glasses.png" height={60} width={60} alt="avatar logo" />
-					</Link>
-					<div className={styles.hamburgerDark} onClick={toggleNav}>
-						<IoIosMenu />
-					</div>
-				</div>
-			</nav>
-		</>
-	);
+  return (
+    <nav className={`${styles.nav} container`} aria-label="Main navigation">
+      <Link className={styles.brand} href="/" onClick={() => setNavIsOpen(false)}>{site.shortName}</Link>
+      <button type="button" className={styles.menuButton} aria-controls="site-navigation" aria-expanded={navIsOpen} aria-label={navIsOpen ? "Close navigation" : "Open navigation"} onClick={() => setNavIsOpen((open) => !open)}>
+        {navIsOpen ? <IoIosClose aria-hidden="true" /> : <IoIosMenu aria-hidden="true" />}
+      </button>
+      <ul id="site-navigation" className={`${styles.links} ${navIsOpen ? styles.open : ""}`}>
+        {navigation.map((item) => <li key={item.href}><Link href={item.href} onClick={() => setNavIsOpen(false)}>{item.label}</Link></li>)}
+        <li><a className={styles.emailLink} href={site.contactEmail}>Email me</a></li>
+      </ul>
+    </nav>
+  );
 }

@@ -1,8 +1,9 @@
-import Skill from "../skillCard/Skill";
 import SelectedProjects from "./SelectedProjects";
 import Hero from "./Hero";
 import SelectedArticles from "./SelectedArticles";
 import SelectedTalks from "./SelectedTalks";
+import SpeakingTopics from "./SpeakingTopics";
+import ContactCta from "./ContactCta";
 
 export default function Home() {
 	return (
@@ -11,11 +12,7 @@ export default function Home() {
 			{/* ============= HERO ================ */}
 
 			<Hero />
-
-			{/* =================================== */}
-			{/* ============= Skills=============== */}
-
-			<Skill />
+			<SpeakingTopics />
 
 			{/* ======================================= */}
 			{/* ============= PROJECTS ================ */}
@@ -31,6 +28,7 @@ export default function Home() {
 			{/* ============= ARTICLES ================ */}
 
 			<SelectedArticles />
+			<ContactCta />
 		</>
 	);
 }
