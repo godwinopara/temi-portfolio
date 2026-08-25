@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./ProjectCard.module.css";
 import Link from "next/link";
+import ExternalArrow from "../icons/ExternalArrow";
 
 const ProjectCard = ({ title, category, description, image, link, linkLabel }) => {
 	return (
@@ -12,7 +13,7 @@ const ProjectCard = ({ title, category, description, image, link, linkLabel }) =
 				<h3>{title}</h3>
 				<h4>{category}</h4>
 				{description && <p>{description}</p>}
-				{link ? <Link href={link} rel="noreferrer" target="_blank" className={styles.btn}>{linkLabel || "View project"} ↗</Link> : <span className={styles.btn}>Currently unavailable</span>}
+				{link ? <Link href={link} rel="noreferrer" target="_blank" className={styles.btn}>{linkLabel || "View project"} <ExternalArrow /></Link> : <span className={styles.btn}>Currently unavailable</span>}
 			</div>
 		</article>
 	);

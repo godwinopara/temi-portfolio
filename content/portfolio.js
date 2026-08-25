@@ -1,8 +1,8 @@
 export const site = {
   name: "Tèmítọ́pẹ́ Ọládòkun",
   shortName: "Tèmítọ́pẹ́ O.",
-  contactEmail: "mailto:techiegeeksinternational@gmail.com",
-  contactLabel: "techiegeeksinternational@gmail.com",
+  contactEmail: "mailto:temitopeo49@gmail.com",
+  contactLabel: "temitopeo49@gmail.com",
   linkedin: "https://www.linkedin.com/in/temitopeoladokun/",
 };
 

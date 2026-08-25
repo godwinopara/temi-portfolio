@@ -53,6 +53,7 @@ const aboutStyles = readFileSync(new URL("../components/about/About.module.css",
 const projectStyles = readFileSync(new URL("../components/project/ProjectPageCard.module.css", import.meta.url), "utf8");
 const talkStyles = readFileSync(new URL("../components/talk/Talk.module.css", import.meta.url), "utf8");
 const navSource = readFileSync(new URL("../components/navbar/navbar.js", import.meta.url), "utf8");
+const homeSource = readFileSync(new URL("../components/Home/home.js", import.meta.url), "utf8");
 const appSource = readFileSync(new URL("../pages/_app.js", import.meta.url), "utf8");
 const nextConfig = readFileSync(new URL("../next.config.js", import.meta.url), "utf8");
 const packageManifest = readFileSync(new URL("../package.json", import.meta.url), "utf8");
@@ -92,6 +93,10 @@ for (const [name, source] of [["about", aboutStyles], ["projects", projectStyles
 
 if (!navSource.includes("useRouter") || !navSource.includes("aria-current")) {
   failures.push("navigation must expose the current page visually and semantically");
+}
+
+if (!navSource.includes("ExternalArrow") || !homeSource.includes("ExternalArrow")) {
+  failures.push("visible external-link arrows must use the shared SVG icon component");
 }
 
 if (!appSource.includes("CursorBubble")) {
