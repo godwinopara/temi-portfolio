@@ -54,6 +54,8 @@ const projectStyles = readFileSync(new URL("../components/project/ProjectPageCar
 const talkStyles = readFileSync(new URL("../components/talk/Talk.module.css", import.meta.url), "utf8");
 const navSource = readFileSync(new URL("../components/navbar/navbar.js", import.meta.url), "utf8");
 const appSource = readFileSync(new URL("../pages/_app.js", import.meta.url), "utf8");
+const nextConfig = readFileSync(new URL("../next.config.js", import.meta.url), "utf8");
+const packageManifest = readFileSync(new URL("../package.json", import.meta.url), "utf8");
 
 if (!projectsPage.includes("Work — Tèmítọ́pẹ́ Ọládòkun")) {
   failures.push("projects page must use the approved Work metadata title");
@@ -97,6 +99,14 @@ if (!appSource.includes("CursorBubble")) {
 
 if (!appSource.includes("ScrollReveal")) {
   failures.push("app shell must mount the reduced-motion-safe scroll reveal enhancement");
+}
+
+if (nextConfig.includes("unoptimized: true")) {
+  failures.push("Next image delivery must use optimized delivery after the framework upgrade");
+}
+
+if (!/"next":\s*"\^?14\./.test(packageManifest)) {
+  failures.push("project must use the supported Next.js 14 release line");
 }
 
 if (failures.length > 0) {
