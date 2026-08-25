@@ -7,6 +7,7 @@ import {
   site,
   talks,
 } from "../content/portfolio.js";
+import { readFileSync } from "node:fs";
 
 const failures = [];
 const records = [...projects, ...talks, ...articles];
@@ -38,6 +39,12 @@ for (const record of records) {
   if (record.link !== null && !/^https:\/\//.test(record.link)) {
     failures.push(`record ${record.id} must use an HTTPS link or null`);
   }
+}
+
+const projectsPage = readFileSync(new URL("../pages/projects.js", import.meta.url), "utf8");
+
+if (!projectsPage.includes("Work — Tèmítọ́pẹ́ Ọládòkun")) {
+  failures.push("projects page must use the approved Work metadata title");
 }
 
 if (failures.length > 0) {
